@@ -1,0 +1,19 @@
+{
+  "main": [
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/"
+    },
+    {
+      "name": "whatsapp",
+      "icon": "fab fa-whatsapp",
+      "link": "https://api.whatsapp.com/send?phone=393333065059"
+    },
+    {
+      "name": "mail",
+      "icon": "fa fa-envelope ",
+      "link": "mailto:gbeducazione@gmail.com"
+    }
+  ]
+}
