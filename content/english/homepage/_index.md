@@ -19,24 +19,7 @@ guide:
     image: "/images/dogstudying_tras.png"
     content: "Clicca su quella più adatta a te!"
     bulletpoints:
-      - "[Clicca qui se devi ancora scegliere il cane](esempio.pdf)"
-      - "[Clicca qui se hai un cucciolo dai 2 ai 5 mesi](https://www.youtube.com/watch?v=wwux9KiBMjE)"
-      - "[Clicca qui se hai un cane dai 6 mesi ai 20 anni](https://www.youtube.com/watch?v=wwux9KiBMjE)"
-    content2: "Oppure inviami subito un messaggio:"
-    wa: "3714841057"
-    mail: "gbeducazione@gmail.com"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
-
-# Guide
-guide:
-  - title: "Ho preparato per te ben 3 guide gratuite!"
-    image: "/images/dogstudying_tras.png"
-    content: "Clicca su quella più adatta a te!"
-    bulletpoints:
-      - "[Clicca qui se devi ancora scegliere il cane](dogstudying_orig.png)"
+      - "[Clicca qui se devi ancora scegliere il cane](/esempio.pdf)"
       - "[Clicca qui se hai un cucciolo dai 2 ai 5 mesi](https://www.youtube.com/watch?v=wwux9KiBMjE)"
       - "[Clicca qui se hai un cane dai 6 mesi ai 20 anni](https://www.youtube.com/watch?v=wwux9KiBMjE)"
     content2: "Oppure inviami subito un messaggio:"
