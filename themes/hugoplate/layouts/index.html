@@ -202,7 +202,7 @@
     <div class="row items-center justify-between">
 
       <p class="mb-8 text-lg">
-        Scopri  <strong>i consigli di Educazione del Cane e del Proprietario</strong> su <a
+        Scopri <strong>i consigli di Educazione del Cane e del Proprietario</strong> su <a
           href="https://shattereddisk.github.io/rickroll/rickroll.mp4"><strong> modenapuppyexpert.com</strong></a>:
         visita il <strong>blog</strong> per leggere subito gli ultimi<strong> articoli </strong>e scoprire gratuitamente
         tantissime informazioni e <strong></strong>consigli utili</strong> che puoi <strong>mettere in pratica
@@ -216,7 +216,22 @@
 <!-- /Consigli -->
 
 
+<!-- Logo -->
+{{ with site.GetPage "sections/logo" }}
+{{ if .Params.enable }}
+<section class="section-sm">
+  <div class="container">
+    <div class="row items-center justify-between">
 
+      <p class="mb-8 text-lg">
+        LOGO</p>
+    </div>
+
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /Logo -->
 
 <!-- Features -->
 {{ range $i, $e:= .Params.features }}
@@ -293,6 +308,65 @@
 {{ end }}
 <!-- /Features2 -->
 
+
+<!-- F -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+        <h2 class="mb-4">
+          I SERVIZI CHE OFFRIAMO
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- /F-->
+
+<!-- Servizi -->
+{{ with site.GetPage "sections/servizi" }}
+{{ range $i, $e:= .Params.features }}
+<section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+  <div class="container">
+    <div class="row items-center justify-between">
+      <div class="mb:md-0 {{ if not (modBool $i 2) }}
+              md:order-2
+            {{ end }} md:col-5 mb-6">
+        {{ partial "image" (dict "Src" .image "Alt" "feature image") }}
+      </div>
+      <div class="{{ if not (modBool $i 2) }}
+              md:order-1
+            {{ end }} md:col-7 lg:col-6">
+        <h2 class="mb-4">
+          {{ .title | markdownify }}
+        </h2>
+        <p class="mb-8 text-lg">
+          {{ .content | markdownify }}
+        </p>
+        <ul>
+          {{ range .bulletpoints }}
+          <li class="relative mb-4 pl-6">
+            <i class="fa fa-check absolute left-0 top-1.5"></i>
+            {{ . | markdownify }}
+          </li>
+          {{ end }}
+        </ul>
+        {{ with .button }}
+        {{ if .enable }}
+        <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+          {{ .label }}
+          <i class="fa fa-arrow-right pl-2"></i>
+        </a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /Features3 -->
 
 
 

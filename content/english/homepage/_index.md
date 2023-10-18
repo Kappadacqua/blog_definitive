@@ -71,4 +71,6 @@ Negli ultimi anni ho aiutato più di 80 cani ed i loro proprietari a comunicare 
       enable: true
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
+
+      
 ---
