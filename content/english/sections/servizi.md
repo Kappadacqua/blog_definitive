@@ -11,7 +11,7 @@ features:
 
   - title: "Consulenze dedicate online"
     image: "/images/loghi_sans.png"
-    content: "Ciao, sono Giulia Balugani, fondatrice di Educazione del Cane e del Proprietario e mi occupo di cinofilia dal 2016g.
+    content: "Ciao, sono Giulia Balugani, fondatrice di Educazione del Cane e del Proprietario e mi occuhpo di cinofilia dal 2016g.
 Negli ultimi anni ho aiutato più di 80 cani ed i loro proprietari a comunicare nella maniera corretta migliorando la loro relazione. "
     button:
       enable: true
