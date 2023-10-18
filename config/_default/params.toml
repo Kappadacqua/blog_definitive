@@ -15,7 +15,7 @@ logo_text = "logo_educazione"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
-theme_switcher = true
+theme_switcher = false
 theme_default = "dark" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
@@ -37,7 +37,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "get a quote"
 link = "contact"
 
