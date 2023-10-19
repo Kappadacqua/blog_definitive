@@ -62,20 +62,25 @@
         <ul>
           {{ range .bulletpoints }}
           <li class="relative mb-4 pl-6">
-            <i class="fa fa-circle absolute left-0 top-3 fa-2xs"></i>
-            {{ . | markdownify }}
+            <span style="color: red;">
+              <i class="fa fa-circle absolute left-0 top-3 fa-2xs"></i>
+              <u>
+                {{ . | markdownify }}
+              </u>
+            </span>
           </li>
           {{ end }}
         </ul>
+        <br>
         <p class="mb-4 text-lg">
           {{ .content2 | markdownify }}
         </p>
-        <p class="mb-4">
-          {{ .wa | markdownify }}
-        </p>
-        <p class="mb-8">
+        <h5 class="mb-4">
+          +39 {{ .wa | markdownify }}
+        </h5>
+        <h5 class="mb-8">
           {{ .mail | markdownify }}
-        </p>
+        </h5>
       </div>
     </div>
   </div>
