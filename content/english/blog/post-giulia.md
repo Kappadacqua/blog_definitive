@@ -1,11 +1,11 @@
 ---
 title: "belli i cani"
 meta_title: ""
-description: "this is meta description"
+description: "mi piacciono tanto"
 date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/cane_felice.png"
 categories: ["Application", "Data"]
-author: "John Doe"
+author: "Giulia"
 tags: ["nextjs", "tailwind"]
 draft: false
 ---

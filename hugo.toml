@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "/"
+baseURL = "educazionecanemodena.it"
 # Title of your website (required).
 title = "Educazione_del_cane_e_del_proprietario"
 # Your theme name
