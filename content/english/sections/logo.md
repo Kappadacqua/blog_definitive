@@ -8,7 +8,7 @@ description: ""
 # Logo
 logo:
     name: "Hanno parlato di noi:"
-    image: "/images/loghi_sans.png"
+    image: "/images/loghi_es.jpg"
 
 
 # don't create a separate page
