@@ -207,11 +207,14 @@
     <div class="row items-center justify-between">
 
       <p class="mb-8 text-lg">
+        <center>
         Scopri <strong>i consigli di Educazione del Cane e del Proprietario</strong> su <a
           href="https://shattereddisk.github.io/rickroll/rickroll.mp4"><strong> modenapuppyexpert.com</strong></a>:
         visita il <strong>blog</strong> per leggere subito gli ultimi<strong> articoli </strong>e scoprire gratuitamente
         tantissime informazioni e <strong></strong>consigli utili</strong> che puoi <strong>mettere in pratica
-        </strong>con il tuo cucciolo o il tuo cane adulto<strong> già a partire da oggi!</strong></p>
+        </strong>con il tuo cucciolo o il tuo cane adulto<strong> già a partire da oggi!</strong>
+      </center>
+      </p>
     </div>
 
   </div>
@@ -272,46 +275,28 @@
 {{ end }}
 <!-- /Features -->
 
-
-<!-- Features2 -->
-{{ range $i, $e:= .Params.features }}
-<section class="section-sm">
+<!-- Metodo_intro -->
+<section class="section">
   <div class="container">
-    <div class="row items-center justify-between">
-      <div class="mb:md-0 md:order-2 md:col-5 mb-6">
-        {{ partial "image" (dict "Src" .image "Alt" "feature image") }}
-      </div>
-      <div class="md:col-7 lg:col-6">
+    <div class="row">
+      <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
         <h2 class="mb-4">
-          {{ .title | markdownify }}
+          IL METODO
         </h2>
-        <p class="mb-8 text-lg">
-          Alla base dei percorsi educativi che propongo alle famiglie che scelgono di affidarsi ad Educazione del Cane e
-          del proprietario ci sono <strong> 6 pilastri fondamentali.</strong></p>
-        <p class="mb-8 text-lg">
-          Insieme, questi pilastri formano le fondamenta del mio metodo, il metodo del <strong>legame</strong></p>
-        <ul>
-          {{ range .bulletpoints }}
-          <li class="relative mb-4 pl-6">
-            <i class="fa fa-circle absolute left-0 top-3 fa-2xs"></i>
-            {{ . | markdownify }}
-          </li>
-          {{ end }}
-        </ul>
-        {{ with .button }}
-        {{ if .enable }}
-        <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
-          {{ .label }}
-          <i class="fa fa-arrow-right pl-2"></i>
-        </a>
-        {{ end }}
-        {{ end }}
+        <br>
+        <p class="mb-8 text-xl text-center">
+          Alla base dei percorsi educativi che propongo alle famiglie che scelgono di affidarsi ad Educazione del Cane e del proprietario ci sono <strong>6 pilastri fondamentali.</strong>
+        </p>
+        <p class="mb-8 text-xl text-center">
+          Insieme, questi pilastri formano le fondamenta del mio metodo, <br>il metodo del <strong>L.E.G.A.M.E.</strong>
+        </p>
       </div>
     </div>
   </div>
 </section>
-{{ end }}
-<!-- /Features2 -->
+
+<!-- /Metodo_intro -->
+
 
 <!-- Metodo -->
 {{ with site.GetPage "sections/metodo" }}
@@ -357,7 +342,7 @@
 {{ end }}
 <!-- /Metodo -->
 
-<!-- F -->
+<!-- Servizi_intro -->
 <section class="section">
   <div class="container">
     <div class="row">
@@ -370,7 +355,7 @@
   </div>
 </section>
 
-<!-- /F-->
+<!-- /Servizi_intro-->
 
 <!-- Servizi -->
 {{ with site.GetPage "sections/servizi" }}

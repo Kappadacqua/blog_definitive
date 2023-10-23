@@ -42,18 +42,5 @@ Negli ultimi anni ho aiutato più di 80 cani ed i loro proprietari a comunicare 
       enable: true
       label: "Consulta qui la mia formazione"
       link: "/about"
-
-  - title: "Il metodo"
-    image: "/images/service-2.png"
-    content: "Alla base dei percorsi educativi che propongo alle famiglie che scelgono di affidarsi ad Educazione del Cane e del proprietario ci sono 6 pilastri fondamentali. "
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
-    button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
-
-      
+  
 ---

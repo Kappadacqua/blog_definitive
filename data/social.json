@@ -1,11 +1,6 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/"
-    },
-    {
       "name": "whatsapp",
       "icon": "fab fa-whatsapp",
       "link": "https://api.whatsapp.com/send?phone=393714841057"

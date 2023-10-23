@@ -1,9 +1,9 @@
 ---
 enable: true
-title: "Servizi"
+title: "Metodo"
 description: ""
 
-# Servizi
+# Metodo
 features:
 
   - title: "LINGUAGGIO"
