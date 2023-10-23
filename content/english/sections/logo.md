@@ -3,11 +3,11 @@ enable: true
 title: "Logo"
 description: ""
 
-imagea: "/images/loghi_sans.png"
+
 
 # Logo
 logo:
-  - name: "logo"
+    name: "Hanno parlato di noi:"
     image: "/images/loghi_sans.png"
 
 

@@ -224,22 +224,29 @@
 <!-- /Consigli -->
 
 
-<!-- Logo -->
+<!-- Sponsor -->
 {{ with site.GetPage "sections/logo" }}
-{{ if .Params.enable }}
-<section class="section-sm">
-  <div class="container">
-    <div class="row items-center justify-between">
+{{ with .Params.logo }}
+<section class="section-sm bg-gradient">
 
-      <p class="mb-8 text-lg">
-        LOGO</p>
+  <div class="row justify-center">
+    <div class="lg:col-8 text-center">
+      <h1 class="mb-6">
+        {{ .name | markdownify }}
+      </h1>
+      <br>
     </div>
-
+  </div>
+  <div class="row justify-center">
+    <div class="col-12 mb-6">
+      {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" "Size" "800x") }}
+    </div>
   </div>
 </section>
 {{ end }}
 {{ end }}
-<!-- /Logo -->
+<!-- /Sponsor -->
+
 
 <!-- Features -->
 {{ range $i, $e:= .Params.features }}
