@@ -7,7 +7,7 @@ banner:
 Se sei qui è perché ami il tuo cane e vuoi vivere felice insieme a lui.
 Non ti interessa trasformarlo in un robottino o in un cane da circo, 
 ma ci sono alcune cose nella convivenza quotidiana con il tuo cane che non ti fanno stare tranquillo."
-  image: "/images/logo_arancio_crop.png"
+  image: "/images/edu_banner.jpg"
   #button:
   #  enable: true
   #  label: "Get Started For Free"

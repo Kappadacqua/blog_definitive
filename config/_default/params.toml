@@ -1,8 +1,8 @@
 #################### default parameters ################################
 # favicon
-favicon = "images/favicon.png"
+favicon = "images/logo_arancio_crop.png"
 # logo
-logo = "images/logo1_sfondo_trasp.png"
+logo = "images/logo_arancio_crop.png"
 logo_darkmode = "images/logo1_sfondo_trasp.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
