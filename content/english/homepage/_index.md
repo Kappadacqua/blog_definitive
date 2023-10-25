@@ -16,7 +16,7 @@ ma ci sono alcune cose nella convivenza quotidiana con il tuo cane che non ti fa
 # Guide
 guide:
   - title: "Ho preparato per te ben 3 guide gratuite!"
-    image: "/images/dogstudying_tras.png"
+    image: "/images/guida.jpg"
     content: "Clicca su quella più adatta a te!"
     bulletpoints:
       - "[Clicca qui se devi ancora scegliere il cane](/esempio.pdf)"
