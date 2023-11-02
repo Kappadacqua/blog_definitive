@@ -9,39 +9,45 @@ description: ""
 # Servizi
 features:
 
-  - title: "CONSULENZE DEDICATE ONLINE"
-    image: "/images/legame/linguaggio.jpg"
-    content: "Abiti troppo distante per ricevere l'aiuto a domicilio offerto da **redacted**?
-    
-    Richiedi subito  una consulenza dedicata online: **redacted**"
+  - title: "PERCORSI EDUCATIVI PER CUCCIOLI"
+    image: "/images/servizi/cucciolo_casino.jpg"
+    content: "Hai da poco adottato un cucciolo e vorresti crescerlo correttamente per farlo diventare un cane adulto **equilibrato e ben inserito sia nella tua famiglia che fuori?**
+Forse sei già alle prese con pipì ovunque, oggetti rosicchiati, graffi sulle gambe e difficoltà ad uscire al guinzaglio. Ma soprattutto ti stai chiedendo se stai facendo bene, se lo sgridi troppo o troppo poco, se riuscirai ad educarlo e crescerlo “come vuoi tu”?
+<br/><br/>
+Grazie al metodo del **L.E.G.A.M.E.**, che ti consente di impostare una splendida relazione creando con il tuo cane un legame indissolubile, **avrai tutti gli strumenti necessari per educarlo al meglio, risolvere i piccoli problemi quotidiani che non ti fanno stare tranquillo e gettare le basi per una splendida vita insieme!**
+<br/><br/>
+Mandami un messaggio Whatsapp al 3714841057 e imposta al meglio questo importantissimo periodo della vita del tuo cucciolo!"
     button:
       enable: false
       label: "Consulta qui la mia formazione"
       link: "/about"
 
-  - title: "CONSULENZE PRE-ADOZIONE"
-    image: "/images/legame/emozioni.jpg"
-    content: "Uno dei motivi per cui amiamo tanto i cani è la loro spontaneità nel vivere ed esprimere le loro emozioni. Una spontaneità che apparteneva anche a noi quando eravamo bambini, ma che abbiamo smorzato con la logica e dalla razionalità che sono subentrate con l’età adulta. Per poter comprendere a fondo il tuo cane avrai bisogno di conoscere molto bene il modo in cui vive le sue emozioni ed il modo in cui risponde alle tue: i cani sono spugne emotive, assorbono le nostre emozioni, se ne fanno carico e ce le restituiscono amplificate. Il comportamento che il cane mette in atto quasi sempre ha origine da un’emozione, ed è per questo che non è sufficiente limitarsi a premiare o punire un dato comportamento. Quando riuscirai ad identificare le emozioni del suo cane dal modo in cui tiene la coda o le orecchie, quando sarai consapevole di come puoi utilizzare le tue stesse emozioni per contagiare e modificare le sue, allora ti renderai conto che basta modificare leggermente la tua postura o il tuo respiro per cambiare far calmare il tuo cane o farlo sentire più sereno."
+  - title: "RISOLUZIONE DI PROBLEMI COMPORTAMENTALI PER CANI ADULTI"
+    image: "/images/servizi/cane_casino.jpg"
+    content: "Hai un cane ormai grandicello e la tua vita si è trasformata in un **incubo**?  Ti immaginavi passeggiate serene e grandi coccole sul divano ed invece il tuo cane **tira, abbaia, distrugge o marca in casa?** Hai smesso di invitare ospiti perché il suo comportamento ti fa vergognare?
+<br/><br/>
+Grazie all’esperienza maturata in anni di lavoro in canile e con i privati e ad una formazione specifica in riabilitazione comportamentale del cane, **posso aiutarti a capire come uscire da questa situazione prima che precipiti!**
+<br/><br/>
+Mandami subito un messaggio Whatsapp al 3714841057 e risolvi adesso i problemi, prima che aggravino ulteriormente!"
     button:
       enable: false
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "RISOLUZIONE PROBLEMI COMPORTAMENTALI"
-    image: "/images/legame/gioco.jpg"
-    content: "Il gioco è la base della relazione, ed insieme alla passeggiata rappresenta il momento di maggior qualità che trascorri insieme al tuo cane. Questo è valido per i cani adulti ed a maggior ragione per i cuccioli, che nel gioco esprimono tutto ciò che conoscono. Il gioco è una palestra di vita, insegna ai cuccioli le regole sociali, li aiuta a capire dove inizia e dove finisce il proprio corpo, li aiuta a dosarsi per non sfociare in lotta. Un gioco sfrenato e “istintivo” come quelli che molti proprietari inconsapevolmente mettono in atto con i loro cuccioli può essere fortemente diseducativo. Il mio protocollo prevede studiare insieme a te dei giochi che permettano al tuo cane di sviluppare le sue inclinazioni di razza, lo divertano, lo stanchino e soprattutto siano educativi, lo aiutino a sviluppare concentrazione, autocontrollo e capacità di ascolto. Tu, che gli proporrai questi giochi fighissimi, diventerai ai suoi occhi la persona più interessante del mondo. Immagina quando il cane penderà dalle tue labbra aspettando di sapere quale gioco fighissimo gli proporrai oggi e sarà più interessato a te che a qualsiasi altra cosa abbia intorno!"
+  - title: "GUIDA E ORIENTAMENTO ALL’ADOZIONE"
+    image: "/images/servizi/adotta.jpg"
+    content: "Vuoi adottare un cane per allargare la tua famiglia ma non sai da che parte cominciare o quale sia il cane più adatto? 
+Ti piace una determinata razza ma ti chiedi se sia adatta a te e come riconoscere un buon allevamento da uno dei tanti che pensano solo ai soldi e vendono cuccioli pieni di problemi sia fisici che comportamentali? 
+Vorresti adottare in canile ma ti chiedi se troverai un cane in grado di adattarsi al tuo stile di vita ed alle necessità della tua famiglia?
+<br/><br/>
+**Ti aiuto io!**
+<br/><br/>
+Fissa una consulenza mandando un messaggio Whatsapp al 3714841057 e insieme troveremo il compagno di vita migliore che tu e la tua famiglia possiate desiderare!"
     button:
       enable: false
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "PERCORSI DI AIUTO PER BAMBINI"
-    image: "/images/legame/ascolto.jpg"
-    content: "La chiave di una buona relazione è una buona comunicazione, e quest’ultima inizia proprio con l’ascolto. Allo stesso modo il mio lavoro inizia con una Consulenza in cui mi pongo in ascolto di tutti i tuoi dubbi, preoccupazioni e necessità. Ascolto ciò che mi racconti e ciò che è importante per te. E ascolto ciò che il tuo cane comunica. Ci ragioniamo insieme e diamo forma ad un progetto che coniughi i tuoi obiettivi con i bisogni e le necessità del tuo cane, un percorso condiviso che vi condurrà verso una quotidianità insieme più serena, appagante e piacevole in modo che tu possa goderti appieno la complessa ma fantastica esperienza che è vivere con il tuo cane."
-    button:
-        enable: false
-        label: "Consulta qui la mia formazione"
-        link: "/about"
 
 
 # don't create a separate page
