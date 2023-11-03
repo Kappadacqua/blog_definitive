@@ -7,17 +7,17 @@ description: "Scorri verso il basso per leggere tutte le testimonianze!"
 testimonials:
   - name: "Umana di Aron"
     designation: "Labrador di 2 anni"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/images/recensioni/aron.jpg"
     content: "Grazie a questo percorso ora pian piano riesco a godermi una passeggiata con il mio cane, posso invitare ospiti a casa senza che lui debba per forza saltargli ripetutamente addosso, riesco a comprendere meglio le esigenze del mio cane nella quotidianità. Ovvio che il percorso con il proprio cane è un crescendo giorno dopo giorno, ma grazie a questo percorso ora ho le basi per instaurare una relazione sana con il mio cane e per permettergli di gestire al meglio le sue emozioni."
 
   - name: "Umana di Lea"
     designation: "Golden retriever 10 mesi"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/images/recensioni/lea.jpg"
     content: "Giulia è una professionista preparatissima e attenta, con un grande amore per il suo lavoro e per il mondo canino, che ci ha aiutati a risolvere tutte le principali problematiche con la nostra cucciola, a conoscerne le esigenze e a farci capire da lei. Non finiremo mai di ringraziarla! Consigliamo alla grande un percorso con Giulia."
 
   - name: "Umano di Bianca"
     designation: "Pitbull di 1 anno e mezzo"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/images/recensioni/bianca.jpg"
     content: "Sono molto contento del percorso che la mia cagnolina ha fatto con Giulia, principalmente perché conoscendo le difficoltà con cui è cresciuta, i miglioramenti sono stati evidenti da subito. Essendo una cagnolina esuberante il percorso educativo, ci ha fatto capire anche quelli che sono i limiti da rispettare della cagnolina, abbassando così le nostre pretese e conoscendo meglio uno stile di vita condivisibile."
 
   - name: "Umana di Elsa"
