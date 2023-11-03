@@ -208,12 +208,13 @@
 
       <p class="mb-8 text-lg">
         <center>
-        Scopri <strong>i consigli di Educazione del Cane e del Proprietario</strong> su <a
-          href="https://shattereddisk.github.io/rickroll/rickroll.mp4"><strong> modenapuppyexpert.com</strong></a>:
-        visita il <strong>blog</strong> per leggere subito gli ultimi<strong> articoli </strong>e scoprire gratuitamente
-        tantissime informazioni e <strong></strong>consigli utili</strong> che puoi <strong>mettere in pratica
-        </strong>con il tuo cucciolo o il tuo cane adulto<strong> già a partire da oggi!</strong>
-      </center>
+          Scopri <strong>i consigli di Educazione del Cane e del Proprietario</strong> su <a
+            href="https://shattereddisk.github.io/rickroll/rickroll.mp4"><strong> modenapuppyexpert.com</strong></a>:
+          visita il <strong>blog</strong> per leggere subito gli ultimi<strong> articoli </strong>e scoprire
+          gratuitamente
+          tantissime informazioni e <strong></strong>consigli utili</strong> che puoi <strong>mettere in pratica
+          </strong>con il tuo cucciolo o il tuo cane adulto<strong> già a partire da oggi!</strong>
+        </center>
       </p>
     </div>
 
@@ -249,64 +250,6 @@
 
 
 <!-- Features -->
-{{ range $i, $e:= .Params.features }}
-<section class="section-sm bg-gradient">
-  <div class="container">
-    <div class="row items-center justify-between">
-      <div class="mb:md-0 md:col-5 mb-6">
-        {{ partial "image" (dict "Src" .image "Alt" "feature image") }}
-      </div>
-      <div class="md:order-1 md:col-7 lg:col-6">
-        <h2 class="mb-4">
-          {{ .title | markdownify }}
-        </h2>
-        <p class="mb-4 text-lg">
-          {{ .content | markdownify }}
-        </p>
-        <p class="mb-4 text-lg">
-          {{ .content2 | markdownify }}
-        </p>
-        {{ with .button }}
-        {{ if .enable }}
-        <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
-          {{ .label }}
-          <i class="fa fa-arrow-right pl-2"></i>
-        </a>
-        {{ end }}
-        {{ end }}
-
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /Features -->
-
-<!-- Metodo_intro -->
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
-        <h2 class="mb-4">
-          IL METODO
-        </h2>
-        <br>
-        <p class="mb-8 text-xl text-center">
-          Alla base dei percorsi educativi che propongo alle famiglie che scelgono di affidarsi ad Educazione del Cane e del proprietario ci sono <strong>6 pilastri fondamentali.</strong>
-        </p>
-        <p class="mb-8 text-xl text-center">
-          Insieme, questi pilastri formano le fondamenta del mio metodo, <br>il metodo del <strong>L.E.G.A.M.E.</strong>
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- /Metodo_intro -->
-
-
-<!-- Metodo -->
-{{ with site.GetPage "sections/metodo" }}
 {{ range $i, $e:= .Params.features }}
 <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
   <div class="container">
@@ -346,8 +289,29 @@
   </div>
 </section>
 {{ end }}
-{{ end }}
-<!-- /Metodo -->
+<!-- /Features -->
+
+<!-- Metodo_intro 
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="md:col-10 lg:col-8 xl:col-6 mx-auto mb-12 text-center">
+        <h2 class="mb-4">
+          IL METODO
+        </h2>
+        <br>
+        <p class="mb-8 text-xl text-center">
+          Alla base dei percorsi educativi che propongo alle famiglie che scelgono di affidarsi ad Educazione del Cane e del proprietario ci sono <strong>6 pilastri fondamentali.</strong>
+        </p>
+        <p class="mb-8 text-xl text-center">
+          Insieme, questi pilastri formano le fondamenta del mio metodo, <br>il metodo del <strong>L.E.G.A.M.E.</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+ /Metodo_intro -->
 
 <!-- Servizi_intro -->
 <section class="section">
@@ -406,7 +370,7 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /Features3 -->
+<!-- /Servizi -->
 
 
 
