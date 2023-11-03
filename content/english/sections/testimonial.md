@@ -27,7 +27,7 @@ testimonials:
 
   - name: "Umano di Ercole"
     designation: "Rhodesian ridgeback di 2 anni"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/images/recensioni/ercole.jpg"
     content: "E’ stato un percorso estremamente interessante e soprattutto utilissimo. Ci ha aiutato a avere un rapporto con Ercole,ci ha aiutato a conoscere il rapporto con lui, adesso ci ascolta e ci cerca. Siamo diventati più bravi a gestirlo in tutto, a sapere come affrontare certi contesti e situazioni e ad evitare quello che non ci piace. "
 
   - name: "Umana di Ringo"
@@ -47,7 +47,7 @@ testimonials:
 
   - name: "Umana di Mia"
     designation: "Border collie di 1 anno"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/images/recensioni/mia.jpg"
     content: "Ho avuto sempre cani ma mai avevo fatto questa esperienza, ma non riuscivo a mettermi in “contatto” con Mia (forse troppo dolore per la morte di Luna, la mia cagnolina di prima). Il mio rapporto con mia è cresciuto tantissimo e ora tutto funziona molto bene, grazie all’aiuto di questo percorso. Sono diventata anche molto più tranquilla (calma) rispetto ai suoi comportamenti e Mia risponde molto di più."
 
   - name: "Umana di Max"
