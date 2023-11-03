@@ -20,8 +20,8 @@ guide:
     content: "Clicca su quella più adatta a te!"
     bulletpoints:
       - "[Clicca qui se devi ancora scegliere il cane](/esempio.pdf)"
-      - "[Clicca qui se hai un cucciolo dai 2 ai 5 mesi](https://www.youtube.com/watch?v=wwux9KiBMjE)"
-      - "[Clicca qui se hai un cane dai 6 mesi ai 20 anni](https://www.youtube.com/watch?v=wwux9KiBMjE)"
+      - "[Clicca qui se hai un cucciolo dai 2 ai 5 mesi](/esempio.pdf)"
+      - "[Clicca qui se hai un cane dai 6 mesi ai 20 anni](/esempio.pdf)"
     content2: "Oppure inviami subito un messaggio:"
     wa: "3714841057"
     mail: "gbeducazione@gmail.com"
