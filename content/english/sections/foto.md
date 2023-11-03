@@ -10,7 +10,7 @@ prova:
 # Foto
 foto:
   - name: "foto1"
-    image: "/images/galleria_edu/01.jpg"
+    image: "/images/gcd alleria_edu/01.jpg"
   - name: "foto2"
     image: "/images/galleria_edu/02.jpg"
   - name: "foto3"
