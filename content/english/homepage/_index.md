@@ -7,7 +7,7 @@ banner:
 Se sei qui è perché ami il tuo cane e vuoi vivere felice insieme a lui.
 Non ti interessa trasformarlo in un robottino o in un cane da circo, 
 ma ci sono alcune cose nella convivenza quotidiana con il tuo cane che non ti fanno stare tranquillo."
-  image: "/images/edu_banner.jpg"
+  image: "/images/homepage/titolo.jpg"
   #button:
   #  enable: true
   #  label: "Get Started For Free"
@@ -16,7 +16,7 @@ ma ci sono alcune cose nella convivenza quotidiana con il tuo cane che non ti fa
 # Guide
 guide:
   - title: "Ho preparato per te ben 3 guide gratuite!"
-    image: "/images/guida.jpg"
+    image: "/images/homepage/guida.jpg"
     content: "Clicca su quella più adatta a te!"
     bulletpoints:
       - "[Clicca qui se devi ancora scegliere il cane](/esempio.pdf)"
@@ -33,9 +33,8 @@ guide:
 # Features
 features:
 
-
   - title: "Come nasce educazione del cane e del proprietario?"
-    image: "/images/edu_sorride_con_cani.jpg"
+    image: "/images/homepage/edu_sorride_con_cani.jpg"
     content: "Ciao, sono Giulia Balugani, fondatrice di Educazione del Cane e del Proprietario e mi occupo di cinofilia dal 2016.
 Negli ultimi anni ho aiutato più di 80 cani ed i loro proprietari a comunicare nella maniera corretta migliorando la loro relazione. "
     button:
@@ -44,7 +43,7 @@ Negli ultimi anni ho aiutato più di 80 cani ed i loro proprietari a comunicare 
       link: "/chi_sono_io"
   
   - title: "IL METODO"
-    image: "/images/edu_banner.jpg"
+    image: "/images/homepage/il_metodo.jpg"
     content: " Alla base dei percorsi educativi che propongo alle famiglie che scelgono di affidarsi ad Educazione del Cane e del proprietario ci sono **6 pilastri fondamentali.**
 <br></br>
 Insieme, questi pilastri formano le fondamenta del mio metodo,

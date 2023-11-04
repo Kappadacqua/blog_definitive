@@ -10,7 +10,7 @@ description: ""
 features:
 
   - title: "PERCORSI EDUCATIVI PER CUCCIOLI"
-    image: "/images/servizi/cucciolo_casino.jpg"
+    image: "/images/servizi/perc_cuccioli.jpg"
     content: "Hai da poco adottato un cucciolo e vorresti crescerlo correttamente per farlo diventare un cane adulto **equilibrato e ben inserito sia nella tua famiglia che fuori?**
 Forse sei già alle prese con pipì ovunque, oggetti rosicchiati, graffi sulle gambe e difficoltà ad uscire al guinzaglio. Ma soprattutto ti stai chiedendo se stai facendo bene, se lo sgridi troppo o troppo poco, se riuscirai ad educarlo e crescerlo “come vuoi tu”?
 <br/><br/>
@@ -23,7 +23,7 @@ Mandami un messaggio Whatsapp al 3714841057 e imposta al meglio questo important
       link: "/chi_sono_io"
 
   - title: "RISOLUZIONE DI PROBLEMI COMPORTAMENTALI PER CANI ADULTI"
-    image: "/images/servizi/cane_casino.jpg"
+    image: "/images/servizi/comp_adulti.jpg"
     content: "Hai un cane ormai grandicello e la tua vita si è trasformata in un **incubo**?  Ti immaginavi passeggiate serene e grandi coccole sul divano ed invece il tuo cane **tira, abbaia, distrugge o marca in casa?** Hai smesso di invitare ospiti perché il suo comportamento ti fa vergognare?
 <br/><br/>
 Grazie all’esperienza maturata in anni di lavoro in canile e con i privati e ad una formazione specifica in riabilitazione comportamentale del cane, **posso aiutarti a capire come uscire da questa situazione prima che precipiti!**
@@ -43,6 +43,20 @@ Vorresti adottare in canile ma ti chiedi se troverai un cane in grado di adattar
 **Ti aiuto io!**
 <br/><br/>
 Fissa una consulenza mandando un messaggio Whatsapp al 3714841057 e insieme troveremo il compagno di vita migliore che tu e la tua famiglia possiate desiderare!"
+    button:
+      enable: false
+      label: "Get Started Now"
+      link: "https://github.com/zeon-studio/hugoplate"
+
+  - title: "SOCIALIZZAZIONE TRA CANI"
+    image: "/images/servizi/socializzazione.jpg"
+    content: "Hai un cane cucciolo o di taglia piccola e non trovi cani adatti con cui lasciarlo interagire in sicurezza? 
+Il tuo cane ha difficoltà a rapportarsi correttamente con gli altri da libero oppure al guinzaglio? 
+Qui troverai i cani che fanno per te!
+<br/><br/>
+Non esiste insegnante migliore per il tuo cane di un suo consimile capace ed equilibrato. Se ne cerchi qualcuno che il tuo cane possa frequentare e da cui possa imparare, potrai trovarlo agli eventi di socializzazione che organizzo ormai da anni in collaborazione con colleghe esperte e competenti.
+<br/><br/>
+Prenota una valutazione per poter partecipare agli eventi di socializzazione mandandomi un messaggio al 3714841057!"
     button:
       enable: false
       label: "Get Started Now"

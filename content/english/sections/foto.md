@@ -55,8 +55,28 @@ foto:
     image: "/images/galleria_edu/022.jpg"
   - name: "foto23"
     image: "/images/galleria_edu/023.jpg"
-
-
+  - name: "foto24"
+    image: "/images/galleria_edu/024.jpg"
+  - name: "foto25"
+    image: "/images/galleria_edu/025.jpg"
+  - name: "foto26"
+    image: "/images/galleria_edu/026.jpg"
+  - name: "foto27"
+    image: "/images/galleria_edu/027.jpg"
+  - name: "foto28"
+    image: "/images/galleria_edu/028.jpg"
+  - name: "foto29"
+    image: "/images/galleria_edu/029.jpg"
+  - name: "foto30"
+    image: "/images/galleria_edu/030.jpg"
+  - name: "foto31"
+    image: "/images/galleria_edu/031.jpg"
+  - name: "foto32"
+    image: "/images/galleria_edu/032.jpg"
+  - name: "foto33"
+    image: "/images/galleria_edu/033.jpg"
+  - name: "foto34"
+    image: "/images/galleria_edu/034.jpg"
 
 
 # don't create a separate page
