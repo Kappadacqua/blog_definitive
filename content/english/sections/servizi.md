@@ -20,7 +20,7 @@ Mandami un messaggio Whatsapp al 3714841057 e imposta al meglio questo important
     button:
       enable: false
       label: "Consulta qui la mia formazione"
-      link: "/about"
+      link: "/chi_sono_io"
 
   - title: "RISOLUZIONE DI PROBLEMI COMPORTAMENTALI PER CANI ADULTI"
     image: "/images/servizi/cane_casino.jpg"

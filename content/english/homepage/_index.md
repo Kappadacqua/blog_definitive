@@ -41,7 +41,7 @@ Negli ultimi anni ho aiutato più di 80 cani ed i loro proprietari a comunicare 
     button:
       enable: true
       label: "Consulta qui la mia formazione"
-      link: "/about"
+      link: "/chi_sono_io"
   
   - title: "IL METODO"
     image: "/images/edu_banner.jpg"

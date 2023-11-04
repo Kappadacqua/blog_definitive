@@ -13,7 +13,7 @@ Quante volte hai sentito questa frase? Ebbene, sappi che il tuo cane ha un lingu
     button:
       enable: false
       label: "Consulta qui la mia formazione"
-      link: "/about"
+      link: "/chi_sono_io"
 
   - title: "EMOZIONI"
     image: "/images/legame/emozioni.jpg"
@@ -37,7 +37,7 @@ Quante volte hai sentito questa frase? Ebbene, sappi che il tuo cane ha un lingu
     button:
         enable: false
         label: "Consulta qui la mia formazione"
-        link: "/about"
+        link: "/chi_sono_io"
 
   - title: "MENTE"
     image: "/images/legame/mente.jpg"
@@ -45,7 +45,7 @@ Quante volte hai sentito questa frase? Ebbene, sappi che il tuo cane ha un lingu
     button:
         enable: false
         label: "Consulta qui la mia formazione"
-        link: "/about"
+        link: "/chi_sono_io"
 
   - title: "ESIGENZE"
     image: "/images/legame/esigenze.jpg"
@@ -57,7 +57,7 @@ Quante volte hai sentito questa frase? Ebbene, sappi che il tuo cane ha un lingu
     button:
         enable: false
         label: "Consulta qui la mia formazione"
-        link: "/about"
+        link: "/chi_sono_io"
 
 # don't create a separate page
 _build:
