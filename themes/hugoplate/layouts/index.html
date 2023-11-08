@@ -6,12 +6,16 @@
   <div class="container">
     <div class="row justify-center">
       <div class="lg:col-8 text-center">
-        <h1 class="mb-6">
+        {{ partial "image" (dict "Src" .image_logo "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" "Size"
+        "400x") }}
+        <!-- <h1 class="mb-6">
           {{ .title | markdownify }}
-        </h1>
-        <h3 class="mb-8">
+        </h1> -->
+        <br>
+        <h3 class="mb-7">
           {{ .subtitle | markdownify }}
         </h3>
+        <br>
       </div>
     </div>
     <div class="row justify-center">
@@ -79,12 +83,61 @@
         <p style="font-size:20px;" class="mb-8">
           {{ .mail | markdownify }}
         </p>
+
+        <ul class="social-icons">
+          {{ range site.Data.social.main }}
+          <li>
+            <a target="_blank" aria-label="{{ .name }}" rel="nofollow noopener" href="{{ .link | safeURL }}">
+              <i class="{{ .icon }}"></i>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+
+
       </div>
     </div>
   </div>
 </section>
 {{ end }}
 <!-- /Guide -->
+
+<!-- Bps -->
+{{ with site.GetPage "sections/bps" }}
+{{ range $i, $e:= .Params.features }}
+<section class="section-sm">
+  <div class="container">
+    <div class="row items-center justify-between">
+      <div class="mb:md-0 md:order-2 md:col-5 mb-6">
+        {{ partial "image" (dict "Src" .image "Alt" "feature image") }}
+      </div>
+      <div class="md:order-1 md:col-7 lg:col-7">
+        <p class="mb-8 text-lg">
+          {{ .content | markdownify }}
+        </p>
+        <ul>
+          {{ range .bulletpoints }}
+          <li class="relative mb-4 pl-6">
+            <i class="fa fa-check absolute left-0 top-1.5"></i>
+            {{ . | markdownify }}
+          </li>
+          {{ end }}
+        </ul>
+        {{ with .button }}
+        {{ if .enable }}
+        <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+          {{ .label }}
+          <i class="fa fa-arrow-right pl-2"></i>
+        </a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /Bps -->
 
 <!-- Testimonials -->
 {{ with site.GetPage "sections/testimonial" }}
@@ -226,6 +279,7 @@
 
 
 <!-- Sponsor -->
+<!--
 {{ with site.GetPage "sections/logo" }}
 {{ with .Params.logo }}
 <section class="section-sm bg-gradient">
@@ -246,6 +300,7 @@
 </section>
 {{ end }}
 {{ end }}
+-->
 <!-- /Sponsor -->
 
 

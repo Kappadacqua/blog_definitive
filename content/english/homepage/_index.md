@@ -8,6 +8,7 @@ Se sei qui è perché ami il tuo cane e vuoi vivere felice insieme a lui.
 Non ti interessa trasformarlo in un robottino o in un cane da circo, 
 ma ci sono alcune cose nella convivenza quotidiana con il tuo cane che non ti fanno stare tranquillo."
   image: "/images/homepage/titolo.jpg"
+  image_logo: "/images/homepage/logo_arancio_crop.png"
   #button:
   #  enable: true
   #  label: "Get Started For Free"
