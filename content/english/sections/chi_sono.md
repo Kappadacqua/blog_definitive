@@ -6,7 +6,7 @@ features:
   - title: "Come nasce educazione del cane e del proprietario?"
     image: "/images/edu_sorride_con_cani.jpg"
     content: "Ciao, sono Giulia Balugani, fondatrice di Educazione del Cane e del Proprietario e mi occupo di cinofilia dal 2016.
-Negli ultimi anni ho aiutato più di 80 cani ed i loro proprietari a comunicare nella maniera corretta migliorando la loro relazione. "
+Negli ultimi anni ho aiutato più di 150 cani ed i loro proprietari a comunicare nella maniera corretta migliorando la loro relazione. "
     button:
       enable: true
       label: "Consulta qui la mia formazione"
