@@ -17,8 +17,6 @@ foto:
     image: "/images/galleria_edu/034.jpg"
   - name: "foto6"
     image: "/images/galleria_edu/06.jpg"
-  - name: "foto4"
-    image: "/images/galleria_edu/04.jpg"
   - name: "foto14"
     image: "/images/galleria_edu/014.jpg"
   - name: "foto12"
