@@ -20,7 +20,8 @@
     </div>
     <div class="row justify-center">
       <div class="col-12 mb-6">
-        {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" "Size" "800x") }}
+        {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto banner" "Size"
+        "800x") }}
       </div>
       <div class="lg:col-7 mb-8 text-center">
         <p class="mb-8 text-lg">
@@ -113,16 +114,30 @@
       </div>
       <div class="md:order-1 md:col-7 lg:col-7">
         <p class="mb-8 text-lg">
-          {{ .content | markdownify }}
+          {{ .content1 | markdownify }}
         </p>
         <ul>
-          {{ range .bulletpoints }}
-          <li class="relative mb-4 pl-6">
+          {{ range .bulletpoints1 }}
+          <li class="relative mb-4 pl-6" style="color:orange">
+            <i class="fa fa-circle  absolute left-0 top-3 fa-2xs"></i>
+            {{ . | markdownify }}
+          </li>
+          {{ end }}
+        </ul>
+        <p class="mb-8 text-lg">
+          {{ .content2 | markdownify }}
+        </p>
+        <ul>
+          {{ range .bulletpoints2 }}
+          <li class="relative mb-4 pl-6" style="color:green">
             <i class="fa fa-check absolute left-0 top-1.5"></i>
             {{ . | markdownify }}
           </li>
           {{ end }}
         </ul>
+        <p class="mb-8 text-lg">
+          {{ .content3 | markdownify }}
+        </p>
         {{ with .button }}
         {{ if .enable }}
         <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
@@ -427,7 +442,25 @@
 {{ end }}
 <!-- /Servizi -->
 
+<!-- Sponsor -->
+{{ with site.GetPage "sections/logo" }}
+{{ with .Params.logo }}
+<section class="section-sm bg-gradient">
 
+  <div class="row justify-center">
+    <div class="lg:col-8 text-center">
+      <br>
+    </div>
+  </div>
+  <div class="row justify-center">
+    <div class="col-12 mb-6">
+      {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto" "Size" "800x") }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /Sponsor -->
 
 {{ end }}
 {{ end }}
