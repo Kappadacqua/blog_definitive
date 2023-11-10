@@ -46,7 +46,7 @@ Negli ultimi anni ho aiutato più di 80 cani ed i loro proprietari a comunicare 
   - title: "IL METODO"
     image: "/images/homepage/il_metodo.jpg"
     content: " Alla base dei percorsi educativi che propongo alle famiglie che scelgono di affidarsi ad Educazione del Cane e del proprietario ci sono **6 pilastri fondamentali.**
-<br></br>
+ <br></br>
 Insieme, questi pilastri formano le fondamenta del mio metodo,
 il metodo del **L.E.G.A.M.E.** "
     button:
