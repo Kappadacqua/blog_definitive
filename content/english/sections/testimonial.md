@@ -22,7 +22,7 @@ testimonials:
 
   - name: "Umana di Elsa"
     designation: "Bolognese di 7 mesi"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/images/recensioni/elsa.jpg"
     content: "Giulia è una educatrice molto attenta, competente, ben organizzata,molto presente e disponibile. L'esperienza avuta è stata utile e davvero interessante. L'impatto principale è quello di non essermi sentita sola ad affrontare le tante novità ed avere avuto un aiuto ed una guida competente e rassicurante."
 
   - name: "Umano di Ercole"
@@ -42,7 +42,7 @@ testimonials:
 
   - name: "Umana di Dylan"
     designation: "Golden retriever di 6 mesi"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/images/recensioni/dylan.jpg"
     content: "Sono diventata più sicura di me nell’approccio col cane. Mi ha aiutata a superare paure/preoccupazioni. Ho imparato a comunicare meglio col cane, insegnandogli tante cose, crescendo insieme (urla ecc inutili). Abbiamo iniziato a conoscere il linguaggio del cane (ho scoperto che esiste)."
 
   - name: "Umana di Mia"
@@ -57,7 +57,7 @@ testimonials:
 
   - name: "Umana di Wendy"
     designation: "Lagotto romagnolo 8 mesi"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/images/recensioni/wendy.jpg"
     content: "E’ stata una esperienza molto bella e stimolante per conoscere meglio il mio cane, imparare come stabilire un contatto costruttivo con lei, giocarci insieme e interpretare i suoi comportamenti. La lezione preferita: quella del percorso di mobility, Wendy bravissima nel “Resta”!"
 
   - name: "Umani di Coco e Maya"
