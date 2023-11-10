@@ -39,6 +39,12 @@ foto:
     image: "/images/galleria_edu/031.jpg"
   - name: "foto32"
     image: "/images/galleria_edu/032.jpg"
+  - name: "foto35"
+    image: "/images/galleria_edu/035.jpg"
+  - name: "foto36"
+    image: "/images/galleria_edu/036.jpg"
+  - name: "foto37"
+    image: "/images/galleria_edu/037.jpg"
 
 
 # don't create a separate page
