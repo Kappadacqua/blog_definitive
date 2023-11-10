@@ -9,18 +9,16 @@ prova:
 
 # Foto
 foto:
-  - name: "foto1"
-    image: "/images/galleria_edu/01.jpg"
-  - name: "foto4"
-    image: "/images/galleria_edu/04.jpg"
+  - name: "foto34"
+    image: "/images/galleria_edu/034.jpg"
   - name: "foto6"
     image: "/images/galleria_edu/06.jpg"
-  - name: "foto12"
-    image: "/images/galleria_edu/012.jpg"
+  - name: "foto4"
+    image: "/images/galleria_edu/04.jpg"
   - name: "foto14"
     image: "/images/galleria_edu/014.jpg"
-  - name: "foto15"
-    image: "/images/galleria_edu/015.jpg"
+  - name: "foto12"
+    image: "/images/galleria_edu/012.jpg"
   - name: "foto16"
     image: "/images/galleria_edu/016.jpg"
   - name: "foto21"
@@ -43,10 +41,6 @@ foto:
     image: "/images/galleria_edu/031.jpg"
   - name: "foto32"
     image: "/images/galleria_edu/032.jpg"
-  - name: "foto33"
-    image: "/images/galleria_edu/033.jpg"
-  - name: "foto34"
-    image: "/images/galleria_edu/034.jpg"
 
 
 # don't create a separate page
