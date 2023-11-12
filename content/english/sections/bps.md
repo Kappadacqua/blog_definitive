@@ -10,7 +10,7 @@ description: ""
 features:
 
   - title: "PERCORSI EDUCATIVI PER CUCCIOLI"
-    image: "/images/servizi/perc_cuccioli.jpg"
+    image: "/images/preambolo.jpg"
     bulletpoints2:
       - "capire al volo cosa il tuo cane sta cercando di dirti"
       - "farti ascoltare dal tuo cane"

@@ -3,7 +3,7 @@ title: "UNA QUESTIONE DI RELAZIONE"
 meta_title: ""
 description: "Di che tipo è la relazione con il tuo cane?"
 date: 2023-11-10T05:00:00Z
-image: "/images/post/post1.jpg"
+image: "/images/post/post1cd.jpg"
 categories: ["Relazione", "cane", "cucciolo"]
 author: "Giulia"
 tags: ["Relazione", "cane", "cucciolo"]
