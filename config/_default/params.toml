@@ -57,7 +57,7 @@ show_categories = true
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["Educazione_del_cane_e_del_proprietario", "Cane"]
-description = ""
+description = "Tutto ciò che ti serve sapere per essere felice con il tuo cane"
 author = ""
 image = "images/og-image.png"
 
