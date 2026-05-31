@@ -1,10 +1,11 @@
 ---
+title: "Educatrice Cinofila a Modena | Giulia Balugani"
 # Banner
 banner:
   title: "Educazione del cane e del proprietario"
   subtitle: "Cani e Proprietari. Felici. Insieme."
   content: "Benvenuto Umano. 
-Se sei qui è perché ami il tuo cane e vuoi vivere felice insieme a lui.
+Se sei qui è perché ami il tuo cane e vuoi vivere felice insieme a lui — che tu sia a Modena o nei dintorni.
 Non ti interessa trasformarlo in un robottino o in un cane da circo, 
 ma ci sono alcune cose nella convivenza quotidiana con il tuo cane che non ti fanno stare tranquillo."
   image: "/images/homepage/titolo.jpg"
@@ -20,7 +21,7 @@ guide:
     image: "/images/homepage/guida.jpg"
     content: "Clicca su quella più adatta a te!"
     bulletpoints:
-      - "Clicca qui se devi ancora scegliere il cane"
+      - "[Clicca qui se devi ancora scegliere il cane](https://educazionecanemodena.it/Guida_scelta_cane.pdf)"
       - "[Clicca qui se hai un cucciolo dai 2 ai 5 mesi](/Guida_cane_cucciolo.pdf)"
       - "[Clicca qui se hai un cane dai 6 mesi ai 20 anni](/Guida_cane_adulto.pdf)"
     content2: "Oppure inviami subito un messaggio:"
@@ -37,7 +38,7 @@ features:
   - title: "Come nasce educazione del cane e del proprietario?"
     image: "/images/homepage/edu_sorride_con_cani.jpg"
     content: "Ciao, sono Giulia Balugani, fondatrice di Educazione del Cane e del Proprietario e mi occupo di cinofilia dal 2016.
-Negli ultimi anni ho aiutato più di 80 cani ed i loro proprietari a comunicare nella maniera corretta migliorando la loro relazione. "
+Negli ultimi anni ho aiutato più di 80 cani ed i loro proprietari a Modena e provincia a comunicare nella maniera corretta migliorando la loro relazione. "
     button:
       enable: true
       label: "Consulta qui la mia formazione"

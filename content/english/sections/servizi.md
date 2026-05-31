@@ -16,7 +16,7 @@ Forse sei già alle prese con pipì ovunque, oggetti rosicchiati, graffi sulle g
 <br/><br/>
 Grazie al metodo del **L.E.G.A.M.E.**, che ti consente di impostare una splendida relazione creando con il tuo cane un legame indissolubile, **avrai tutti gli strumenti necessari per educarlo al meglio, risolvere i piccoli problemi quotidiani che non ti fanno stare tranquillo e gettare le basi per una splendida vita insieme!**
 <br/><br/>
-Mandami un messaggio Whatsapp al 3714841057 e imposta al meglio questo importantissimo periodo della vita del tuo cucciolo!"
+Mandami un messaggio Whatsapp al 3714841057 e imposta al meglio questo importantissimo periodo della vita del tuo cucciolo. Lavoro a Modena e dintorni, direttamente a casa tua!"
     button:
       enable: false
       label: "Consulta qui la mia formazione"

@@ -3,3 +3,11 @@
       width: 25%;
     }
   }
+
+.content {
+  color: inherit;
+
+  p, li {
+    color: var(--body-color, inherit);
+  }
+}

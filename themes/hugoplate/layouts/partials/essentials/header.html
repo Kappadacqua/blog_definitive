@@ -34,7 +34,7 @@
       {{ range site.Menus.main }}
         {{ $menuURL := .URL | absLangURL }}
         {{ $pageURL:= $currentPage.Permalink | absLangURL }}
-        {{ $active := eq $menuURL $pageURL }}
+        {{ $active := and (not (in .URL "#")) (eq $menuURL $pageURL) }}
         {{ if .HasChildren }}
           <li class="nav-item nav-dropdown group relative">
             <span

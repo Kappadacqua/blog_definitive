@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="section-sm">
+  <div class="container">
+    <div class="row justify-center">
+      <div class="md:col-10 lg:col-8 xl:col-7 mx-auto mb-12 text-center">
+        <h1 class="h2 mb-4">{{ .Title }}</h1>
+        <p class="text-lg">{{ .Params.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ with site.GetPage "sections/servizi" }}
+{{ range $i, $e := .Params.features }}
+<section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+  <div class="container">
+    <div class="row items-center justify-between">
+      <div class="mb:md-0 {{ if not (modBool $i 2) }}md:order-2{{ end }} md:col-5 mb-6">
+        {{ partial "image" (dict "Src" .image "Alt" "feature image") }}
+      </div>
+      <div class="{{ if not (modBool $i 2) }}md:order-1{{ end }} md:col-7 lg:col-6">
+        <h2 class="mb-4">{{ .title | markdownify }}</h2>
+        <p class="mb-8 text-lg">{{ .content | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ partial "call-to-action.html" . }}
+{{ end }}
