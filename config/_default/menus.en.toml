@@ -48,6 +48,36 @@ url = "chi_sono_io/"
 weight = 1
 
 [[footer]]
+name = "Come funziona"
+url = "/come-funziona/"
+weight = 2
+
+[[footer]]
+name = "Recensioni"
+url = "/#recensioni"
+weight = 3
+
+[[footer]]
+name = "Servizi"
+url = "/servizi/"
+weight = 4
+
+[[footer]]
+name = "Il Metodo"
+url = "/legame/"
+weight = 5
+
+[[footer]]
+name = "Contatti"
+url = "/#contatti"
+weight = 6
+
+[[footer]]
+name = "Blog"
+url = "blog/"
+weight = 7
+
+[[footer]]
 name = "Licenze"
 url = "licenze/"
-weight = 2
+weight = 8
